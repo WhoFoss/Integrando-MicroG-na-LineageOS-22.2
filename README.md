@@ -39,7 +39,7 @@ repo sync vendor/partner_gms
 ```
 nano +1496 frameworks/base/services/core/java/com/android/server/pm/ComputerEngine.java
 ```
-> [! ATENÇÃO]
+> [!NOTE]
 > O número da linha pode variar se o source for atualizado. Se necessário, busque pelo conteúdo if (!isDebuggable()) dentro do método isMicrogSigned.
 
  2. E deleta as linhas 1496, 1497 e 1498.
