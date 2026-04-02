@@ -52,7 +52,7 @@ public static boolean isMicrogSigned(AndroidPackage p) {
         if (!p.getPackageName().equals("com.android.vending") &&
 ```
 
-### As linhas que devem ser deletadas são:
+### O conteúdo que deve ser deletado:
 ```
 if (!isDebuggable()) {
             return false;
@@ -61,7 +61,7 @@ if (!isDebuggable()) {
 
 ---
 
-### O resultado final do método deve ficar assim:
+### O resultado final deve ficar assim:
 ```
 public static boolean isMicrogSigned(AndroidPackage p) {
         // Allowlist the following apps:
