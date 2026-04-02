@@ -24,7 +24,7 @@ repo sync vendor/partner_gms
 ```
 
 ---
-### HabHabilitar Signature Spoofing em builds user
+### Habilitar Signature Spoofing em builds user
 
 > [!NOTE]
 > Por que esse passo é necessário?
